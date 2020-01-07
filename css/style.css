@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-  color: #292929;
+  color: #f1f1f1;
   font-weight: 600;
 }
 
@@ -296,7 +296,7 @@ nav ul li a {
 #about {
   width: 100%;
   height: auto;
-  background: #f7f7f7;
+  background: url("../images/brickwall.png");
   padding-top: 190px;
 }
 
@@ -332,7 +332,7 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #services {
-  background: #f7f7f7;
+  background-image:url("../images/brickwall.png");
   position: relative;
   padding-bottom: 80px;
 }
@@ -401,6 +401,7 @@ nav ul li a {
 #portfolio {
   position: relative;
   padding-bottom: 50px;
+  background-image: url("../images/escheresque_ste.png");
 }
 
 #portfolio .portfolio-list {
@@ -453,7 +454,7 @@ nav ul li a {
   display: inline-block;
   margin-bottom: 50px;
   width: 100%;
-  background: lightgray;
+  background-image: url("../images/escheresque_ste.png");
 }
 
 .portfolio-thumbnail {
@@ -539,9 +540,8 @@ nav ul li a {
 #contact {
   height: auto;
   width: 100%;
-    background: url("../images/bg-signup1.jpg") no-repeat center ;
-    background-size:cover;
-    background-position: 50% 15%;
+    background: url("../images/brickwall.png") ;
+
 }
 
 .contact-details {

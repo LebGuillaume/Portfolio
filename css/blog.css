@@ -29,7 +29,9 @@
   margin-bottom: 30px;
   overflow: hidden;
 }
+#pattern{
 
+}
 .container-main .block-main .content-main {
   background: #fff none repeat scroll 0 0;
   display: inline-block;
@@ -144,4 +146,7 @@ blockquote {
   margin: 30px 0;
   border: none;
   border-left: 4px solid #b8a07e;
+}
+input[placeholder]{
+  color: #f1f1f1!important;
 }
