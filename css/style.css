@@ -267,6 +267,7 @@ nav ul li a {
   margin-bottom: 10px;
   text-transform: uppercase;
   color: #fff;
+
 }
 
 .header-content p {
@@ -410,6 +411,7 @@ nav ul li a {
 #portfolio img {
   height:200px;
   width: 300px;
+  object-fit: cover;
 
 }
 #portfolio iframe {
@@ -597,7 +599,7 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #footer {
-  background: lightgray;
+  background-image: url("../images/brickwall.png");
   padding-top: 50px;
   padding-bottom: 50px;
 }

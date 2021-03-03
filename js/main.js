@@ -125,7 +125,7 @@ $(document).ready(function() {
   // ========================================================================= //
 
   var magnifPopup = function() {
-    $('.popup-img').magnificPopup({
+    $('.popup-img,.popup-vid').magnificPopup({
       type: 'image',
       removalDelay: 300,
       mainClass: 'mfp-with-zoom',
@@ -145,12 +145,12 @@ $(document).ready(function() {
         opener: function(openerElement) {
           // openerElement is the element on which popup was initialized, in this case its <a> tag
           // you don't need to add "opener" option if this code matches your needs, it's defailt one.
-          return openerElement.is('img,iframe') ? openerElement : openerElement.find('img,iframe');
+          return openerElement.is('img') ? openerElement : openerElement.find('img');
         }
       },
     });
-    $('.popup-img').magnificPopup({
-      type: 'image',
+    $('.popup-vid').magnificPopup({
+      type: 'iframe',
       removalDelay: 300,
       mainClass: 'mfp-with-zoom',
       gallery: {
@@ -169,7 +169,7 @@ $(document).ready(function() {
         opener: function(openerElement) {
           // openerElement is the element on which popup was initialized, in this case its <a> tag
           // you don't need to add "opener" option if this code matches your needs, it's defailt one.
-          return openerElement.is('img,iframe') ? openerElement : openerElement.find('img,iframe');
+          return openerElement.is('iframe') ? openerElement : openerElement.find('iframe');
         }
       },
     });

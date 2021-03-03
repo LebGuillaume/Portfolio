@@ -163,6 +163,9 @@
  */
 
 @media (max-width: 600px) {
+  .header-content h1{
+    font-size: 40px;
+  }
   /* Navbar */
   nav {
     padding: 20px 15px;
@@ -216,6 +219,7 @@
   #journal .journal-block .journal-info {
     margin-bottom: 30px;
   }
+
   /* Contact */
   .contact-contact {
     margin-bottom: 30px;
@@ -234,6 +238,9 @@
  */
 
 @media (max-width: 480px) {
+  .header-content h1{
+    font-size: 30px;
+  }
   /* Navbar */
   nav {
     padding: 20px 15px;
@@ -304,6 +311,9 @@
  */
 
 @media (max-width: 320px) {
+  .header-content h1{
+    font-size: 28px;
+  }
   /* Navbar */
   nav {
     padding: 20px 15px;
